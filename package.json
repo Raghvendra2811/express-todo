@@ -11,6 +11,7 @@
     "start": "node app.js"
   },
   "dependencies": {
+    "body-parser": "^1.20.1",
     "express": "^4.16.3"
   },
   "engines": {
