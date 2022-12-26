@@ -68,3 +68,11 @@ async function getAllTodos() {
     return todos[index];
   }
   
+
+  module.exports = {
+    getAllTodos,
+    addTodo,
+    deleteTodo,
+    updateTodoById,
+  };
+  
